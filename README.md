@@ -14,6 +14,7 @@
     1) stat: variabel bertipe PreparedStatement untuk mengeksekusi query SQL pada database
     2) rs: variabel bertipe ResultSet untuk menyimpan hasil eksekusi query SQL
     3) db: variabel bertipe dbConnection untuk melakukan koneksi dengan database
+    4) user : represenrtasi user
   - Method:
     1) initComponents(): method untuk menginisialisasi komponen-komponen pada user interface (UI)
     2) login(): constructor untuk membuat objek dari class login dan memanggil method initComponents()
@@ -30,6 +31,7 @@
     1) stat: variabel bertipe PreparedStatement untuk mengeksekusi query SQL pada database
     2) rs: variabel bertipe ResultSet untuk menyimpan hasil eksekusi query SQL
     3) db: variabel bertipe dbConnection untuk melakukan koneksi dengan database
+    4) user : represenrtasi user
   - Method:
     1) initComponents(): method untuk menginisialisasi komponen-komponen pada user interface (UI)
     2) login(): constructor untuk membuat objek dari class login dan memanggil method initComponents()
@@ -78,3 +80,20 @@
   - button/event
     1) btn_ubahActionPerformed(): method yang dipanggil ketika tombol "Ubah" ditekan pada Card. Method ini mengambil objek menu_utama, memanggil method setUpdate untuk menampilkan data pada form update, dan memilih tab form update pada menu_utama.
     2) btn_hapusActionPerformed(): method yang dipanggil ketika tombol "Hapus" ditekan pada Card. Method ini melakukan operasi hapus data pada database, menghapus file gambar jika ada, menampilkan pesan berhasil atau gagal, dan memanggil method setPanel pada menu_utama untuk menampilkan ulang panel.
+    
+ - dbConnection ->
+
+  - Atribut:
+    1) stmt: sebuah objek Statement yang digunakan untuk melakukan query ke database.
+    2) conn: sebuah objek Connection yang merepresentasikan koneksi ke database.
+  - Method:
+    1)connect(): sebuah method private yang digunakan untuk melakukan koneksi ke database dengan menggunakan alamat, username, dan password yang diberikan sebagai parameter.
+    2) selectQuery(): sebuah method public yang digunakan untuk menjalankan query SELECT dan mengembalikan objek ResultSet yang berisi hasil query.
+    3) updateQuery(): sebuah method public yang digunakan untuk menjalankan query UPDATE dan mengembalikan jumlah baris yang terpengaruh oleh query.
+    4) getStatement(): sebuah method public yang mengembalikan objek Statement untuk digunakan oleh kelas lain dalam menjalankan query.
+    5) getCon(): sebuah method public yang mengembalikan objek Connection yang merepresentasikan koneksi ke database, untuk digunakan oleh kelas lain dalam menjalankan query.
+
+--------------------------------------------------------------------------
+2 .UML
+
+![TP2 drawio](https://user-images.githubusercontent.com/100481579/231523210-75b061cd-5772-4eac-a762-eaefcec92084.png)
