@@ -1,5 +1,5 @@
 # TP2DPBO2023
-## Saya Muhammad Rizki NIM 2107922 mengerjakan soal TP 2 dalam mata kuliah DPBO untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
+#### Saya Muhammad Rizki NIM 2107922 mengerjakan soal TP 2 dalam mata kuliah DPBO untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
 
 1. Penjelasan Program
 - User ->
