@@ -94,6 +94,27 @@
     5) getCon(): sebuah method public yang mengembalikan objek Connection yang merepresentasikan koneksi ke database, untuk digunakan oleh kelas lain dalam menjalankan query.
 
 --------------------------------------------------------------------------
-2 .UML
+2 .UML & ERD database
 
 ![TP2 drawio](https://user-images.githubusercontent.com/100481579/231523210-75b061cd-5772-4eac-a762-eaefcec92084.png)
+![image](https://user-images.githubusercontent.com/100481579/231527548-064897ed-a116-4251-b299-df19af96ca98.png)
+
+--------------------------------------------------------------------------
+3 . Dokumentasi
+
+![2](https://user-images.githubusercontent.com/100481579/231527717-e8041b95-8b48-41dc-9975-58f3ed02d3ab.png)
+
+
+![4](https://user-images.githubusercontent.com/100481579/231527750-521becf4-30a7-4ca0-aea7-d4a0681c3d09.png)
+
+![5](https://user-images.githubusercontent.com/100481579/231527804-0b4e72fb-b725-4a6a-ad38-59ed9540d9f8.png)
+
+![14](https://user-images.githubusercontent.com/100481579/231527858-edb38f87-6d6d-41b7-ba2d-a229dd5637f1.png)
+
+![13](https://user-images.githubusercontent.com/100481579/231527898-4555a678-4a35-4094-9c7d-4ebca9aad889.png)
+
+
+--------------------------------------------------------------------------
+4 . Akun Testing
+nama : Ajat sang Petualang
+NIK : 12345
