@@ -100,7 +100,7 @@
 ![image](https://user-images.githubusercontent.com/100481579/231527548-064897ed-a116-4251-b299-df19af96ca98.png)
 
 --------------------------------------------------------------------------
-3 . Dokumentasi
+3 . Dokumentasi(untuk lengkapnya ada di folder "Hasil"!)
 
 ![2](https://user-images.githubusercontent.com/100481579/231527717-e8041b95-8b48-41dc-9975-58f3ed02d3ab.png)
 
