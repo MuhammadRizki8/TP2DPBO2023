@@ -18,6 +18,7 @@ public class login extends javax.swing.JFrame {
     private PreparedStatement stat;
     private ResultSet rs;
     dbConnection db = new dbConnection();
+    user u = new user();
     /**
      * Creates new form login
      */
@@ -139,7 +140,6 @@ public class login extends javax.swing.JFrame {
 
     private void btn_masukActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_masukActionPerformed
         // TODO add your handling code here:
-        user u = new user();
         u.setNik(text_nik.getText());
         u.setNama(text_nama.getText());
         try {

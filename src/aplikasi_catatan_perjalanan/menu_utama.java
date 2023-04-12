@@ -29,7 +29,6 @@ public class menu_utama extends javax.swing.JFrame {
     private PreparedStatement stat;
     private ResultSet rs;
     dbConnection db=new dbConnection();
-    private DefaultTableModel model = null;
     private String nik, nama, foto;
     user u=new user();
     private String filename;

@@ -20,8 +20,6 @@ import javax.swing.SwingUtilities;
  * @author Gumilang
  */
 public class Card extends javax.swing.JPanel {
-    private PreparedStatement stat;
-    private ResultSet rs;
     dbConnection db=new dbConnection();
     String path ,tgl, lks, dsk, idStr;
     menu_utama mu = (menu_utama) SwingUtilities.getWindowAncestor(this);
